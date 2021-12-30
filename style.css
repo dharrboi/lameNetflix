@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 2em;
+    background-color: black;
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 7px rgb(153, 19, 19);
+    margin: 0 auto;
+    font-size: 3em;
+    font-family: 'Oswald', sans-serif;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 49em;
+    margin: 0 auto;
+    font-family: Verdana, sans-serif;
+}
+
+h2,h4{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+h4{opacity: 0.7;}
+#cards>div{
+    width: 17em;
+    height: 22em;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid rgb(54, 54, 54);
+    border-radius: 15%;
+    margin: 10px 5%;
+    font-family: Verdana, sans-serif;
+}
+
+table{
+    margin: 0 auto;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding: 8px 17px;
+    margin-top: 35px;
+    border: 2px solid black !important;
+    background-color: white;
+    color: black;
+    font-size: large;
+    border: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    transition-duration: 0.7s;
+    font-family: Verdana, sans-serif;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
